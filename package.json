@@ -1,0 +1,19 @@
+{
+  "name": "resume_builder",
+  "version": "0.0.1",
+  "description": "Convert a JSON into a React webpage and LaTeX PDF",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/trimblet/resume-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/trimblet/resume-builder/issues"
+  },
+  "homepage": "https://gitlab.com/trimblet/resume-builder#README"
+}
