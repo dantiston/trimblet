@@ -1,2 +1,2 @@
-# trimblet.github.io
-Source for trimblet.github.io
+# trimblet
+Source for dantiston.github.io/trimblet
