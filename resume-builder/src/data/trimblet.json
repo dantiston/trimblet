@@ -6,7 +6,7 @@
   },
   "experience": [
     {
-      "employer": "PRO Unlimited @ Facebook",
+      "name": "PRO Unlimited @ Facebook",
       "start_date": "07-2017",
       "end_date": "current",
       "title": "Linguistic Tools Engineering Lead",
@@ -19,11 +19,11 @@
           "description": "Coordinated standards and efforts across team to increase data quality and tool quality across the pipeline."
         }
       ]
-    },
+    }
   ],
   "education": [
     {
-      "employer": "University of Washington",
+      "name": "University of Washington",
       "start_date": "09-2012",
       "end_date": "12-2014",
       "title": "Masters of Science in Computational Linguistics",
@@ -45,7 +45,7 @@
         "English (Native)",
         "French (Intermediate)",
         "Japanese (Beginner)",
-        "Italian (Beginner)",
+        "Italian (Beginner)"
       ]
     },
     {
@@ -54,24 +54,24 @@
         "Python",
         "Java",
         "JavaScript/React",
-        "PHP/Hack",
+        "PHP/Hack"
       ]
-    }
+    },
     {
       "title": "Software and packages",
       "values": {
         "NLP Packages": [
           "nltk",
-          "coreNLP",
+          "coreNLP"
         ],
         "VCS": [
           "git",
           "svn",
-          "mercurial",
+          "mercurial"
         ],
         "IDE": [
           "Atom/Nuclide",
-          "Eclipse",
+          "Eclipse"
         ]
       }
     }

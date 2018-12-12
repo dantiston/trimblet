@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
+import resume_json from './data/trimblet.json';
+
+const { Map } = require('immutable');
+
+const { Header } = require('./components/header.react');
+const { Experience } = require('./components/experience.react');
+
 class App extends Component {
+
   render() {
+    const resume = Map(resume_json);
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header info={resume.get("info")} />
+        <Experience entries={resume.get("experience")} />
+        <Experience entries={resume.get("education")} />
       </div>
     );
   }
